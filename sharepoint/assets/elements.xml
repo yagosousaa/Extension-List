@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    CustomSchema="schema.xml"
+    FeatureId="00BFEA71-DE22-43B2-A848-C05709900100"
+    Title="Biblioteca de Documentos"
+    Description="Provisionar uma biblioteca de documentos quando a solução for implantada"
+    TemplateType="100"
+    Url="Lists/BibliotecaDeDocumentos"
+  />
+</Elements>

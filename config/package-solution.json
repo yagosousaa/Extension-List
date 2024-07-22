@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "f1-bibliotecaDeDocumentos-lefosse",
+    "id": "6f0494c8-1e2c-459c-9c94-11691f382200",
+    "version": "1.0.0.2",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "FunctionOne",
+      "websiteUrl": "https://functionone.com.br",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Provision a document library when the solution is deployed"
+      },
+      "longDescription": {
+        "default": "Provision a document library when the solution is deployed"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "list-extension Feature",
+        "description": "The feature that activates elements of the list-extension solution.",
+        "id": "ff1d7db3-9005-49d3-952d-64e38f39b554",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": ["elements.xml"],
+          "elementFiles": ["schema.xml"]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/list-extension.sppkg"
+  }
+}

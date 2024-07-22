@@ -1,0 +1,168 @@
+<List xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Title="BibliotecaDados" Description="" Direction="0" BaseType="0" FeatureId="{00BFEA71-DE22-43B2-A848-C05709900100}" ServerTemplate="100" Url="Lists/BibliotecaDados" VersioningEnabled="TRUE" MajorVersionLimit="50" MajorWithMinorVersionsLimit="0" FolderCreation="FALSE" EnableContentTypes="TRUE" NavigateForFormsPages="TRUE" BrowserFileHandling="permissive" AdditionalUXProperties="{&quot;Color&quot;:&quot;7&quot;,&quot;Icon&quot;:&quot;3&quot;,&quot;TypeId&quot;:&quot;9542934c-c7b7-0d56-8c7e-0000000ff1ce&quot;}" PolicyScenarioId="{00000000-0000-0000-0000-000000000000}" AlternateAppUrlPattern="" AlternateWopiUrlPattern="" Version="118">
+  <MetaData>
+    <Views>
+      <View DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="Todos os Itens" Url="Lists/BibliotecaDados/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+        <ViewFields>
+          <FieldRef Name="Field1"/>
+          <FieldRef Name="Field2"/>
+        </ViewFields>
+        <ViewData />
+        <Query />
+        <Aggregations Value="Off" />
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <Mobile MobileItemLimit="3" MobileSimpleViewField="LinkTitle" />
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <ParameterBindings>
+          <ParameterBinding Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+      <View Type="HTML" DisplayName="Livros" Url="Lists/BibliotecaDados/Livros.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+        <Query>
+          <Where>
+            <Eq>
+              <FieldRef Name="ContentType"/>
+              <Value Type="Computed">Livro</Value>
+            </Eq>
+          </Where>
+        </Query>
+        <ViewFields>
+          <FieldRef Name="Field1"/>
+          <FieldRef Name="Field2"/>
+          <FieldRef Name="Field3"/>
+          <FieldRef Name="Field4"/>
+          <FieldRef Name="Field5"/>
+          <FieldRef Name="Field6"/>
+          <FieldRef Name="Field7"/>
+        </ViewFields>
+        <CalendarViewStyles>
+          <CalendarViewStyle Title="Day" Type="day" Template="CalendarViewdayChrome" Sequence="1" Default="FALSE" />
+          <CalendarViewStyle Title="Week" Type="week" Template="CalendarViewweekChrome" Sequence="2" Default="FALSE" />
+          <CalendarViewStyle Title="Month" Type="month" Template="CalendarViewmonthChrome" Sequence="3" Default="FALSE" />
+          <CalendarViewStyle Title="Work week" Type="workweek" Template="CalendarViewweekChrome" Sequence="4" Default="FALSE" />
+        </CalendarViewStyles>
+        <ViewData />
+        <Toolbar Type="None" />
+        <ColumnWidth>
+          <FieldRef Name="Field1" width="182" />
+          <FieldRef Name="Field2" width="186" />
+        </ColumnWidth>
+        <Aggregations Value="Off" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ParameterBindings>
+          <ParameterBinding Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+      <View Type="HTML" DisplayName="Capitulos" Url="Lists/BibliotecaDados/Capitulos.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+        <Query>
+          <Where>
+            <Eq>
+              <FieldRef Name="ContentType"/>
+              <Value Type="Computed">Capítulo</Value>
+            </Eq>
+          </Where>
+        </Query>
+        <ViewFields>
+          <FieldRef Name="Field1"/>
+          <FieldRef Name="Field2"/>
+          <FieldRef Name="Field3"/>
+          <FieldRef Name="Field4"/>
+          <FieldRef Name="Field5"/>
+        </ViewFields>
+        <CalendarViewStyles>
+          <CalendarViewStyle Title="Day" Type="day" Template="CalendarViewdayChrome" Sequence="1" Default="FALSE" />
+          <CalendarViewStyle Title="Week" Type="week" Template="CalendarViewweekChrome" Sequence="2" Default="FALSE" />
+          <CalendarViewStyle Title="Month" Type="month" Template="CalendarViewmonthChrome" Sequence="3" Default="FALSE" />
+          <CalendarViewStyle Title="Work week" Type="workweek" Template="CalendarViewweekChrome" Sequence="4" Default="FALSE" />
+        </CalendarViewStyles>
+        <ViewData />
+        <Toolbar Type="None" />
+        <Aggregations Value="Off" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ParameterBindings>
+          <ParameterBinding Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+      <View Type="HTML" DisplayName="Contrato" Url="Lists/BibliotecaDados/Contrato.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/generic.png?rev=47">
+        <Query>
+          <Where>
+            <Eq>
+              <FieldRef Name="ContentType"/>
+              <Value Type="Computed">Contrato</Value>
+            </Eq>
+          </Where>
+        </Query>
+        <ViewFields>
+          <FieldRef Name="Field1"/>
+          <FieldRef Name="Field2"/>
+          <FieldRef Name="Field3"/>
+          <FieldRef Name="Field4"/>
+          <FieldRef Name="Field5"/>
+          <FieldRef Name="Field6"/>
+          <FieldRef Name="Field7"/>
+          <FieldRef Name="Field8"/>
+          <FieldRef Name="Field9"/>
+          <FieldRef Name="Field10"/>
+          <FieldRef Name="Field11"/>
+          <FieldRef Name="Field12"/>
+          <FieldRef Name="Field13"/>
+          <FieldRef Name="Field14"/>
+        </ViewFields>
+        <ColumnWidth>
+          <FieldRef Name="Field1" width="200" />
+          <FieldRef Name="Field2" width="157" />
+          <FieldRef Name="Field3" width="160" />
+          <FieldRef Name="Field4" width="168" />
+          <FieldRef Name="Field5" width="175" />
+          <FieldRef Name="Field6" width="164" />
+          <FieldRef Name="Field7" width="158" />
+          <FieldRef Name="Field8" width="169" />
+          <FieldRef Name="Field9" width="221" />
+          <FieldRef Name="Field10" width="164" />
+        </ColumnWidth>
+        <CalendarViewStyles>
+          <CalendarViewStyle Title="Day" Type="day" Template="CalendarViewdayChrome" Sequence="1" Default="FALSE" />
+          <CalendarViewStyle Title="Week" Type="week" Template="CalendarViewweekChrome" Sequence="2" Default="FALSE" />
+          <CalendarViewStyle Title="Month" Type="month" Template="CalendarViewmonthChrome" Sequence="3" Default="FALSE" />
+          <CalendarViewStyle Title="Work week" Type="workweek" Template="CalendarViewweekChrome" Sequence="4" Default="FALSE" />
+        </CalendarViewStyles>
+        <ViewData />
+        <Toolbar Type="None" />
+        <Aggregations Value="Off" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ParameterBindings>
+          <ParameterBinding Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Fields>
+      <Field Type="Text" DisplayName="Capitulos" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="Campos personalizados">
+        <Default></Default>
+      </Field>
+      <Field Type="Text" DisplayName="Classificação" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" Group="Campos personalizados">
+        <Default></Default>
+      </Field>
+      <Field Type="Choice" DisplayName="Subtipo" Required="FALSE" Format="Dropdown" FillInChoice="FALSE" Group="Campos personalizados">
+        <Default>Selecione...</Default>
+        <CHOICES>
+          <CHOICE>Selecione...</CHOICE>
+          <CHOICE>Subtipo1</CHOICE>
+          <CHOICE>Subtipo2</CHOICE>
+          <CHOICE>Subtipo3</CHOICE>
+        </CHOICES>
+        <MAPPINGS></MAPPINGS>
+      </Field>
+    </Fields>
+  </MetaData>
+</List>
